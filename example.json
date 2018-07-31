@@ -1,0 +1,9 @@
+{    
+    "quantity":3,
+    "instanceType":"t2.micro",
+    "amiId":"latest",
+    "financialIdentifier":"283711002",
+    "environmentType":"LAB",
+    "resourceOwner":"AcunaNottingham@tr.com",
+    "applicationAssetInsightId":"200050"
+}

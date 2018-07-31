@@ -1,0 +1,11 @@
+{
+    "iamRole":"arn:aws:iam::608014515287:instance-profile/AmazonEC2ContainerServiceforEC2Role",
+    "securityGroupIDs":["sg-a3cad0db"],
+    "subnet":"subnet-58b7893c",
+    "image":"latest",
+    "minCount":3,
+    "maxCount":3,
+    "instanceType":"t2.micro",
+    "tags":[{"key":"asdnoasnd", "value":"aosknd"}],
+    "userData":{"bucketName":"name", "fileKey":"key"}
+}

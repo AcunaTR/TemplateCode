@@ -1,0 +1,98 @@
+Environment variables:
+  - BUILD_VERSION=1.0.28
+  - CA_CERTIFICATES_JAVA_VERSION=20140324
+  - HOME=/opt/sonar-runner-2.4
+  - HOSTNAME=0577a8d92960
+  - JAVA_DEBIAN_VERSION=8u45-b14-2~bpo8+2
+  - JAVA_VERSION=8u45
+  - LANG=C.UTF-8
+  - PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+  - PWD=/data
+  - SONAR_RUNNER_HOME=/opt/sonar-runner-2.4
+  - SONAR_RUNNER_PACKAGE=sonar-runner-dist-2.4.zip
+  - SONAR_RUNNER_VERSION=2.4
+  - SONAR_USER_HOME=/data/.sonar-cache
+System properties:
+  - ROOT_LOGGER_LEVEL=DEBUG
+  - awt.toolkit=sun.awt.X11.XToolkit
+  - file.encoding=UTF-8
+  - file.encoding.pkg=sun.io
+  - file.separator=/
+  - java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment
+  - java.awt.printerjob=sun.print.PSPrinterJob
+  - java.class.path=/opt/sonar-runner-2.4/lib/sonar-runner-dist-2.4.jar
+  - java.class.version=52.0
+  - java.endorsed.dirs=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed
+  - java.ext.dirs=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext
+  - java.home=/usr/lib/jvm/java-8-openjdk-amd64/jre
+  - java.io.tmpdir=/tmp
+  - java.library.path=/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+  - java.runtime.name=OpenJDK Runtime Environment
+  - java.runtime.version=1.8.0_45-internal-b14
+  - java.specification.name=Java Platform API Specification
+  - java.specification.vendor=Oracle Corporation
+  - java.specification.version=1.8
+  - java.vendor=Oracle Corporation
+  - java.vendor.url=http://java.oracle.com/
+  - java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+  - java.version=1.8.0_45-internal
+  - java.vm.info=mixed mode
+  - java.vm.name=OpenJDK 64-Bit Server VM
+  - java.vm.specification.name=Java Virtual Machine Specification
+  - java.vm.specification.vendor=Oracle Corporation
+  - java.vm.specification.version=1.8
+  - java.vm.vendor=Oracle Corporation
+  - java.vm.version=25.45-b02
+  - line.separator=
+
+  - os.arch=amd64
+  - os.name=Linux
+  - os.version=4.14.42-52.37.amzn1.x86_64
+  - path.separator=:
+  - project.home=/data
+  - runner.home=/opt/sonar-runner-2.4
+  - sun.arch.data.model=64
+  - sun.boot.class.path=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes
+  - sun.boot.library.path=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64
+  - sun.cpu.endian=little
+  - sun.cpu.isalist=
+  - sun.io.unicode.encoding=UnicodeLittle
+  - sun.java.command=org.sonar.runner.Main
+  - sun.java.launcher=SUN_STANDARD
+  - sun.jnu.encoding=UTF-8
+  - sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+  - sun.os.patch.level=unknown
+  - user.dir=/data
+  - user.home=?
+  - user.language=en
+  - user.name=?
+  - user.timezone=Etc/UTC
+SonarQube plugins:
+  - GitLab 3.0.0 (gitlab)
+  - SonarJava 5.5.0.14655 (java)
+  - Code Smells 4.0.0 (smells)
+Global properties:
+  - sonar.core.id=AWPfyb5a52NC7ylHMLSf
+  - sonar.core.startTime=2018-07-13T15:16:24+0000
+  - sonar.coverage.exclusions=src/main/java/com/thomsonreuters/*/wrappers/**,src/main/java/com/thomsonreuters/*/launcher/**
+  - sonar.gitlab.url=https://git.sami.int.thomsonreuters.com
+  - sonar.gitlab.user_token=TrxhgyzF7pRTsyUg9K6C
+Settings for module: TemplateLambda
+  - sonar.binaries=target
+  - sonar.host.url=http://10.97.134.209:9000
+  - sonar.issuesReport.console.enable=true
+  - sonar.issuesReport.html.enable=true
+  - sonar.issuesReport.json.enable=true
+  - sonar.java.binaries=target
+  - sonar.junit.reportsPaths=test-results
+  - sonar.language=java
+  - sonar.log.level=DEBUG
+  - sonar.projectBaseDir=/data/.
+  - sonar.projectKey=TemplateLambda
+  - sonar.projectName=TemplateLambda
+  - sonar.projectVersion=1.0.28
+  - sonar.report.export.path=sonar-report.json
+  - sonar.sourceEncoding=UTF-8
+  - sonar.sources=src/main/java
+  - sonar.verbose=true
+  - sonar.working.directory=/data/./.sonar

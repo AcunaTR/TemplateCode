@@ -9,6 +9,8 @@ public class LambdaFunctionHandler implements RequestHandler<String, String> {
     public String handleRequest(String input, Context context) {
         context.getLogger().log("Input: " + input);
         //comment
+        //newversion
+        
         return input;
     }
 }

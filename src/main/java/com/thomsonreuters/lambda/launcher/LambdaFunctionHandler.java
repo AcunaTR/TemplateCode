@@ -9,7 +9,7 @@ public class LambdaFunctionHandler implements RequestHandler<StateData, StateDat
     @Override
     public StateData handleRequest(StateData input, Context context) {
         context.getLogger().log("Input: " + input);
-        
+        //comment
         return input;
     }
 

@@ -109,6 +109,12 @@
             <artifactId>commons-logging</artifactId>
             <version>1.1.1</version>
         </dependency>
+        <dependency>
+            <groupId>com.thomsonreuters.lambda</groupId>
+            <artifactId>Launcher</artifactId>
+            <version>${env.BUILD_VERSION}</version>
+            <type>jar</type>
+        </dependency>
         </dependencies>
     <name>Launcher</name>
 </project>

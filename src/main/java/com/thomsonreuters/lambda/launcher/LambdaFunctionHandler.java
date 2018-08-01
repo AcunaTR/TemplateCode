@@ -11,5 +11,4 @@ public class LambdaFunctionHandler implements RequestHandler<String, String> {
         //comment
         return input;
     }
-
 }
